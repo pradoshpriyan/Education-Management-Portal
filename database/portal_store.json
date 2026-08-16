@@ -1,0 +1,326 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "student@portal.edu",
+      "password": "password123",
+      "role": "student",
+      "name": "Pradosh Priyan"
+    },
+    {
+      "id": 2,
+      "email": "teacher@portal.edu",
+      "password": "password123",
+      "role": "teacher",
+      "name": "Dr. Kumar"
+    },
+    {
+      "id": 3,
+      "email": "admin@portal.edu",
+      "password": "password123",
+      "role": "admin",
+      "name": "Administrator"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "code": "CS301",
+      "title": "Full Stack Development",
+      "department": "Computer Science",
+      "category": "Full Stack",
+      "teacher": "Dr. Arun Kumar",
+      "instructor": "Dr. Arun Kumar",
+      "scheduleText": "Mon & Wed • 10:00 AM",
+      "schedule": [
+        "Monday — 10:00 AM to 11:30 AM",
+        "Wednesday — 10:00 AM to 11:30 AM"
+      ],
+      "duration": "12 Weeks",
+      "students": 42,
+      "level": "Intermediate",
+      "description": "Learn full stack web application development with modern frontend frameworks, RESTful APIs, and backend server design.",
+      "syllabus": [
+        "HTML5, CSS3 & Responsive UI",
+        "JavaScript ES6+ & React",
+        "Node.js & Express API",
+        "Database Integration",
+        "Full Stack Deployment"
+      ]
+    },
+    {
+      "id": 2,
+      "code": "CS302",
+      "title": "Foundation of Data Science",
+      "department": "Computer Science",
+      "category": "Data Science",
+      "teacher": "Dr. Priya Sharma",
+      "instructor": "Dr. Priya Sharma",
+      "scheduleText": "Tue & Thu • 11:00 AM",
+      "schedule": [
+        "Tuesday — 11:00 AM to 12:30 PM",
+        "Thursday — 11:00 AM to 12:30 PM"
+      ],
+      "duration": "14 Weeks",
+      "students": 40,
+      "level": "Intermediate",
+      "description": "Learn relational databases, SQL, normalization, transactions and database design.",
+      "syllabus": [
+        "ER Diagrams",
+        "Relational Algebra",
+        "SQL Queries",
+        "Normalization (1NF-BCNF)",
+        "Transactions & ACID"
+      ]
+    },
+    {
+      "id": 3,
+      "code": "CS303",
+      "title": "Web Development",
+      "department": "Computer Science",
+      "category": "Web Development",
+      "teacher": "Mr. Kavin Raj",
+      "instructor": "Mr. Kavin Raj",
+      "scheduleText": "Mon & Fri • 2:00 PM",
+      "schedule": [
+        "Monday — 2:00 PM to 3:30 PM",
+        "Friday — 2:00 PM to 3:30 PM"
+      ],
+      "duration": "10 Weeks",
+      "students": 38,
+      "level": "Beginner",
+      "description": "Build modern web applications using HTML, CSS, JavaScript and React.",
+      "syllabus": [
+        "HTML5 & CSS3",
+        "JavaScript ES6+",
+        "React Basics",
+        "State & Props",
+        "REST API Integration"
+      ]
+    },
+    {
+      "id": 4,
+      "code": "CS304",
+      "title": "Java Programming",
+      "department": "Computer Science",
+      "category": "Programming",
+      "teacher": "Mr. Rahul Dev",
+      "instructor": "Mr. Rahul Dev",
+      "scheduleText": "Wed & Fri • 9:00 AM",
+      "schedule": [
+        "Wednesday — 9:00 AM to 10:30 AM",
+        "Friday — 9:00 AM to 10:30 AM"
+      ],
+      "duration": "12 Weeks",
+      "students": 45,
+      "level": "Intermediate",
+      "description": "Master Java programming, object-oriented programming, collections and exception handling.",
+      "syllabus": [
+        "Java Syntax",
+        "OOP Principles",
+        "Collections Framework",
+        "Exception Handling",
+        "Spring Boot Basics"
+      ]
+    }
+  ],
+  "students": [
+    {
+      "name": "priyan",
+      "roll": "711524BCB038",
+      "attendance": 85,
+      "score": 7.5,
+      "status": "Good"
+    },
+    {
+      "name": "Arun Kumar",
+      "roll": "CS301",
+      "attendance": 92,
+      "score": 8.6,
+      "status": "Good"
+    },
+    {
+      "name": "Priya Sharma",
+      "roll": "CS302",
+      "attendance": 84,
+      "score": 7.8,
+      "status": "Good"
+    },
+    {
+      "name": "Rahul Dev",
+      "roll": "CS303",
+      "attendance": 68,
+      "score": 6.1,
+      "status": "At Risk"
+    },
+    {
+      "name": "Kavin Raj",
+      "roll": "CS304",
+      "attendance": 76,
+      "score": 6.9,
+      "status": "Monitor"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "title": "Full Stack React App",
+      "course": "Full Stack Development",
+      "due": "Submitted Today",
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "title": "Exploratory Data Analysis",
+      "course": "Foundation of Data Science",
+      "due": "Submitted Today",
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "title": "LLM Fine-Tuning Script",
+      "course": "Generative AI",
+      "due": "Completed",
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "title": "Statistical Regression Model",
+      "course": "Business Statistics",
+      "due": "Pending Submission",
+      "status": "Pending"
+    }
+  ],
+  "examinations": [
+    {
+      "id": 1,
+      "title": "CIA 1 Internal Assessment",
+      "type": "CIA 1",
+      "course": "Full Stack Development",
+      "date": "2026-08-25",
+      "time": "10:00 AM",
+      "venue": "Lab 3",
+      "scale": "10.0 CGPA",
+      "totalMarks": "10.0 CGPA",
+      "status": "Scheduled"
+    },
+    {
+      "id": 2,
+      "title": "CIA 2 Internal Assessment",
+      "type": "CIA 2",
+      "course": "Foundation of Data Science",
+      "date": "2026-08-28",
+      "time": "02:00 PM",
+      "venue": "Hall B",
+      "scale": "10.0 CGPA",
+      "totalMarks": "10.0 CGPA",
+      "status": "Scheduled"
+    },
+    {
+      "id": 3,
+      "title": "SEMESTER End Examination",
+      "type": "SEMESTER",
+      "course": "Generative AI",
+      "date": "2026-09-10",
+      "time": "10:00 AM",
+      "venue": "Main Auditorium",
+      "scale": "10.0 CGPA",
+      "totalMarks": "10.0 CGPA",
+      "status": "Scheduled"
+    }
+  ],
+  "results": [
+    {
+      "code": "CS301",
+      "name": "Full Stack Development",
+      "cia1": 8.6,
+      "cia2": 8.9,
+      "semester": 9.1,
+      "cgpa": 8.87,
+      "grade": "A+"
+    },
+    {
+      "code": "CS302",
+      "name": "Foundation of Data Science",
+      "cia1": 6.8,
+      "cia2": 7.2,
+      "semester": 7.5,
+      "cgpa": 7.17,
+      "grade": "B+"
+    },
+    {
+      "code": "CS303",
+      "name": "Generative AI",
+      "cia1": 8.2,
+      "cia2": 8.5,
+      "semester": 8.8,
+      "cgpa": 8.5,
+      "grade": "A"
+    },
+    {
+      "code": "CS304",
+      "name": "Business Statistics",
+      "cia1": 9.0,
+      "cia2": 9.2,
+      "semester": 9.4,
+      "cgpa": 9.2,
+      "grade": "O"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1786877970824,
+      "name": "Computer Science & Business System",
+      "code": "CSBS",
+      "head": "Unassigned",
+      "courses": 1,
+      "students": 0
+    },
+    {
+      "id": 1,
+      "name": "Computer Science",
+      "code": "CS",
+      "head": "Dr. Arun Kumar",
+      "courses": 5,
+      "students": 120
+    },
+    {
+      "id": 2,
+      "name": "Electronics & Comm.",
+      "code": "EC",
+      "head": "Dr. Suresh Kumar",
+      "courses": 3,
+      "students": 65
+    },
+    {
+      "id": 3,
+      "name": "Mechanical Eng.",
+      "code": "ME",
+      "head": "Dr. Meena Krishnan",
+      "courses": 2,
+      "students": 45
+    },
+    {
+      "id": 4,
+      "name": "Electrical Eng.",
+      "code": "EE",
+      "head": "Dr. Priya Sharma",
+      "courses": 2,
+      "students": 50
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": 1,
+      "action": "New course added: Artificial Intelligence (CS306)",
+      "user": "Dr. Ravi",
+      "time": "10 mins ago"
+    },
+    {
+      "id": 2,
+      "action": "User role updated: Faculty -> Head of CS",
+      "user": "Admin",
+      "time": "1 hour ago"
+    }
+  ]
+}
